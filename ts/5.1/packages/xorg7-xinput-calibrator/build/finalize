@@ -1,0 +1,3 @@
+#xorg-xinput-calibrator 95
+echo "/bin/touchcal.sh &" >> /etc/skel/.xinitrc
+
