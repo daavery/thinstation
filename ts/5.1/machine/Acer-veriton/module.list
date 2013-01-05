@@ -5,7 +5,6 @@ module hid-generic
 module usbhid
 module hid
 module sd_mod
-module uas
 module usb-libusual
 module gpio-ich
 module evdev
@@ -42,3 +41,6 @@ module thermal
 module 8250_pnp
 module button
 module processor
+module arc4
+module coretemp
+module hwmon

@@ -60,3 +60,8 @@ NET_DNS_SEARCH=".dentk.com"
 NET_DNS1=10.1.100.13
 STORAGE_PATH=/mnt/usbdevice/sda1
 STORAGE_CONFIG1=/mnt/usbdevice/sda1
+#   INPUTATTACHMODE :: type of device being attached
+#   INPUTATTACHDEVICE :: port the device is attached to
+       INPUTATTACHMODE=-elo
+       INPUTATTACHDEVICE=/dev/ttyS0
+
