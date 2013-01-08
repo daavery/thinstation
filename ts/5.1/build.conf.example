@@ -102,18 +102,18 @@ module squashfs
 # --- Packages to include in boot image
 # --- Packages below may be "package" or "pkg"
 #!!Miscellaneous
-package ts-classic              # The classic ts logic for network/netfiles/hostname/mounting/telnetd/telnet/playcd
+#package ts-classic              # The classic ts logic for network/netfiles/hostname/mounting/telnetd/telnet/playcd
 #package automount
-#package networkmanager
+package networkmanager
 package udisks-glue
 package ntp			# Utility to obtain date & time from network
 #package sound-esd		# Enable sound-esd or sound-nasd if you want to be able to control
 #package sound-nasd		#  sound on your thin client from another computer or
                         	#  your remote session.
 #package alsa-lib
-#package alsa-utils
+package alsa-utils
 #package gnome-media
-#package gnome-network-properties
+package gnome-network-properties
 package gnome-core
 #package kismet
 #package gst-plugins-base
@@ -150,19 +150,17 @@ package gnome-core
 #package xorg7-trident
 #package xorg7-tseng
 #package xorg7-v4l
-package xorg7-vesa
-#package xorg7-vmware
+#package xorg7-vesa
+package xorg7-vmware
 #package xorg7-ztv
 #package xorg7-ati
 #package xorg7-nv
 #package xorg7-openchrome
 #package xorg7-geode
 #package xorg7-i740
-package xorg7-intel
-package xorg7-nvidia
+#package xorg7-intel
 #package xorg7-fbdev
 #package xorg7-tinyx
-package nvidia
 
 #!!Locale or localization files for keyboard and fonts.  (Language/Country)
 #package locale-cs_CZ  # Czech
@@ -210,7 +208,7 @@ package thunar			# File Manager for xfwm4 -- Pulls in xfwm4
 #package java			# Java runtime
 #package firefox_lowmem		# Firefox 3 for low resource machines
 #package firefox		# Firefox current Web Browser
-#package chrome			# Google Chrome Web Browser
+package chrome			# Google Chrome Web Browser
 #package kiosk			# Rkiosk Plugin for Firefox
 #package flash_lowmem		# Flash 9 browser plugin for firefox and low resource machines
 #package flash			# Flash Current
@@ -243,9 +241,6 @@ package xfwm4
 #package idle-shutdown		# Package that lets you specify automatic shutdown settings and logic.
 #package wbar         		# Adds icons to desktop
 #package idesk
-package xorg7-xinput
-package inputattach
-package xorg7-xinput-calibrator
 
 #!!Other services
 #package www 			# Web access to client.  From a browser: "http://<IP number>"
